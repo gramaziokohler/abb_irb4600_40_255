@@ -172,7 +172,7 @@
     <joint name="${prefix}joint_4" type="revolute">
       <parent link="${prefix}link_3"/>
       <child link="${prefix}link_4"/>
-      <origin xyz="0.332 0 0.175" rpy="0 0 0 "/>
+      <origin xyz="0.331 0 0.175" rpy="0 0 0 "/>
       <axis xyz="1 0 0"/>
       <!-- (-400 to 400) -->
       <limit lower="${-20*pi/9}" upper="${20*pi/9}" effort="10000" velocity="6.2832" />
